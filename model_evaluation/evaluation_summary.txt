@@ -1,0 +1,114 @@
+========================================================================
+REALTIME AI LAYER — EVALUATION SUMMARY
+Hybrid AI-Based NIDS — Graduation Project
+Generated: 2026-05-12 06:22
+========================================================================
+
+METHODOLOGY
+───────────
+  Ground truth: Synthetic feature vectors from known attack signatures.
+  EMA baseline: Warmed with 15 normal-traffic observations (alpha=0.1).
+  Noise model:  12% relative Gaussian noise per sample.
+  Samples:      25 per attack class, 40 normal traffic.
+  Random seed:  42 (reproducible results).
+
+BEHAVIORAL PATTERN CLASSIFIER
+─────────────────────────────
+  IF model present: True
+
+  Attack Class               Precision   Recall       F1
+  ───────────────────────── ────────── ──────── ────────
+  Connection Burst              1.0000   0.6400   0.7805
+  ICMP Flood                    1.0000   1.0000   1.0000
+  Port Scan                     1.0000   0.8800   0.9362
+  SYN Flood                     1.0000   0.9200   0.9583
+  UDP Flood                     1.0000   0.8800   0.9362
+  ───────────────────────── ────────── ──────── ────────
+  Macro Average                 1.0000   0.8640   0.9222
+
+  Binary Detection (Attack vs Normal):
+    TP=198  FP=40  TN=140  FN=52
+    Precision: 0.8319
+    Recall:    0.7920
+    F1-Score:  0.8115
+    False Positive Rate: 0.2222
+
+  AI-UNKNOWN Uncertainty Handling:
+    Samples tested: 180
+    Correctly returned AI-UNKNOWN: 140
+    Uncertainty Accuracy: 0.7778
+
+ISOLATION FOREST ANOMALY DETECTOR
+──────────────────────────────────
+  Binary detection threshold: 0.5
+  TP=75  FP=0  TN=40  FN=50
+  Precision:         1.0000
+  Recall:            0.6000
+  F1-Score:          0.7500
+  False Pos Rate:    0.0000
+  ROC-AUC:           0.8032
+
+  HYBRID Threshold Coverage (IF score >= 0.52):
+    SYN Flood                : 100.0% of samples qualify
+    Port Scan                : 100.0% of samples qualify
+    ICMP Flood               : 0.0% of samples qualify
+    UDP Flood                : 0.0% of samples qualify
+    Connection Burst         : 100.0% of samples qualify
+
+  Behavioral Gate Coverage (IF score >= 0.55):
+    SYN Flood                : 84.0% of samples qualify
+    Port Scan                : 64.0% of samples qualify
+    ICMP Flood               : 0.0% of samples qualify
+    UDP Flood                : 0.0% of samples qualify
+    Connection Burst         : 100.0% of samples qualify
+
+DETECTION TIER BREAKDOWN
+────────────────────────
+  Tier          | Trigger Condition                         | UI Badge
+  ─────────────────────────────────────────────────────────────────────
+  RULE          | Rule fires, IF score < 0.52              | (none)
+  HYBRID        | Rule fires, IF score >= 0.52             | purple AI+RULE
+  AI-CLASSIFIED | IF score >= 0.55, pattern matched         | cyan AI
+  AI-UNKNOWN    | IF score >= 0.55, no pattern >= 4x EMA    | amber AI?
+
+ACADEMIC NOTES
+──────────────
+  1. The behavioral classifier is EMA-ratio-based (domain knowledge),
+     not a trained supervised model. Classification accuracy reflects
+     how well the 6-feature space separates attack archetypes.
+
+  2. AI-UNKNOWN is a deliberate design property. When no feature
+     exceeds 4x EMA, the system reports honest uncertainty rather
+     than forcing a label. This is epistemically correct for an
+     anomaly-based IDS.
+
+  3. Evaluation uses synthetic ground truth because labeled live
+     traffic was not available. This is the standard approach when
+     captures from known attacks are impractical to obtain.
+
+  4. The IF model separates attack from normal traffic in feature
+     space. Quality depends on baseline training data captured by
+     scripts/collect_baseline.py on real network traffic.
+
+  5. The supervised RF classifier (Section D) is a second-opinion layer.
+     It fires BEFORE the EMA-ratio rules when its confidence >= 70%.
+     When below threshold it falls through to EMA rules, then AI-UNKNOWN.
+     The BENIGN class allows the RF to suppress border-noise anomalies.
+
+SUPERVISED RF CLASSIFIER (Section D)
+─────────────────────────────────────────────────────
+  Strong attack accuracy (macro avg):   96.0%
+  Borderline accuracy (macro avg):      52.8%
+  Sub-threshold rejection rate (mean):  100.0%
+  Confidence threshold:                 70%
+
+  Decision chain (highest to lowest priority):
+    1. RF model present + conf >= 70% + attack class  → AI-CLASSIFIED (RF)
+    2. RF model present + conf >= 70% + BENIGN class  → Suppress alert
+    3. RF absent, errored, or conf < 70%              → EMA-ratio rules
+    4. EMA: dominant feature >= 4× baseline           → AI-CLASSIFIED (EMA)
+    5. EMA: no dominant feature                       → AI-UNKNOWN
+
+========================================================================
+Output files in: C:\Users\user\Downloads\ids_project_skeleton\ids_project\evaluation_output/
+========================================================================

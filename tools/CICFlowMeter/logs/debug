@@ -1,0 +1,328 @@
+2026-05-05 02:31:35 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_510962fb80\input
+2026-05-05 02:31:35 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_510962fb80\output
+2026-05-05 02:31:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@0class org.jnetpcap.protocol.network.Ip4: size=0 bytes
+JMemory: owner=null.class
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:31:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@18d060243ceclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=286)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:31:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_510962fb80\input\ids_chunk_Wi-Fi_1.pcap
+2026-05-05 02:31:42 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_69b6f747d0\input
+2026-05-05 02:31:42 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_69b6f747d0\output
+2026-05-05 02:31:44 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@0class org.jnetpcap.protocol.network.Ip4: size=0 bytes
+JMemory: owner=null.class
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:31:44 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@165f0724444class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=404)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:31:44 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_69b6f747d0\input\ids_chunk_Wi-Fi_2.pcap
+2026-05-05 02:31:48 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_367a16a138\input
+2026-05-05 02:31:48 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_367a16a138\output
+2026-05-05 02:31:49 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1e2638f44acclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=508)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:31:49 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1e2638f482cclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=1404)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:31:49 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_367a16a138\input\ids_chunk_Wi-Fi_3.pcap
+2026-05-05 02:32:08 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_f137d3391c\input
+2026-05-05 02:32:08 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_f137d3391c\output
+2026-05-05 02:32:09 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@0class org.jnetpcap.protocol.network.Ip4: size=0 bytes
+JMemory: owner=null.class
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:09 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@0class org.jnetpcap.protocol.network.Ip4: size=0 bytes
+JMemory: owner=null.class
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:09 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1ac7289442cclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=380)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:09 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1ac7289442cclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=380)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:09 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1ac72894536class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=646)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:09 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_f137d3391c\input\ids_chunk_Wi-Fi_1.pcap
+2026-05-05 02:32:14 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_89b77670cf\input
+2026-05-05 02:32:14 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_89b77670cf\output
+2026-05-05 02:32:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1cd40294442class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=402)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1cd40294442class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=402)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1cd402945caclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=794)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1cd402946aeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=1022)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1cd402949d0class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=1824)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:15 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_89b77670cf\input\ids_chunk_Wi-Fi_2.pcap
+2026-05-05 02:32:20 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_5bca434108\input
+2026-05-05 02:32:20 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_5bca434108\output
+2026-05-05 02:32:22 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1a86dcc4392class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=226)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:22 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1a86dcc4392class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=226)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:22 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1a86dcc44b2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=514)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:32:22 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_5bca434108\input\ids_chunk_Wi-Fi_3.pcap
+2026-05-05 02:34:30 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_249f02683b\input
+2026-05-05 02:34:30 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_249f02683b\output
+2026-05-05 02:34:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@11f42db4318class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=104)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:34:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@11f42db4820class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=1392)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:34:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@11f42db4a38class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=1928)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:34:32 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_249f02683b\input\ids_chunk_Wi-Fi_1.pcap
+2026-05-05 02:34:36 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_39c830c5b1\input
+2026-05-05 02:34:37 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_39c830c5b1\output
+2026-05-05 02:34:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2dc029142ceclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:34:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2dc02914776class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=1222)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:34:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2dc02914776class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=1222)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:34:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2dc02917998class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=14056)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:34:38 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_39c830c5b1\input\ids_chunk_Wi-Fi_2.pcap
+2026-05-05 02:34:43 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_9a9929d321\input
+2026-05-05 02:34:43 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_9a9929d321\output
+2026-05-05 02:34:44 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1a9b9adf67eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=6254)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:34:44 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1a9b9afe904class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2740)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:34:44 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1a9b9b06626class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=1990)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:34:44 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@1a9b9b06852class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2546)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 74 e9  bf 11 59 54  08 06 00 01    ......t...YT....
+0010: 08 00 06 04  00 01 74 e9  bf 11 59 54  c0 a8 01 01    ......t...YT....
+0020: 00 00 00 00  00 00 c0 a8  01 0a                       ..........      
+
+
+2026-05-05 02:34:44 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_9a9929d321\input\ids_chunk_Wi-Fi_3.pcap
+2026-05-05 03:07:02 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_e155d35755\input
+2026-05-05 03:07:02 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_e155d35755\output
+2026-05-05 03:07:04 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*22 7b bf c8  28 fe a0 e7* 0b b6 d1 f4  08 06 00 01    "{..(...........
+0010: 08 00 06 04  00 01 a0 e7  0b b6 d1 f4  c0 a8 01 05    ................
+0020: 22 7b bf c8  28 fe c0 a8  01 06*                      "{..(.....      
+
+
+2026-05-05 03:07:04 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagRST current has 2 flow
+2026-05-05 03:07:04 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_e155d35755\input\ids_chunk_Wi-Fi_1.pcap
+2026-05-05 03:07:09 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_a1aa0116d5\input
+2026-05-05 03:07:09 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_a1aa0116d5\output
+2026-05-05 03:07:10 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_a1aa0116d5\input\ids_chunk_Wi-Fi_2.pcap
+2026-05-05 03:07:15 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_a1149ebef7\input
+2026-05-05 03:07:15 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_a1149ebef7\output
+2026-05-05 03:07:17 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-05-05 03:07:17 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 1 flow
+2026-05-05 03:07:17 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_a1149ebef7\input\ids_chunk_Wi-Fi_3.pcap
+2026-05-05 03:56:02 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_da1c6f9a26\input
+2026-05-05 03:56:02 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_da1c6f9a26\output
+2026-05-05 03:56:04 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_da1c6f9a26\input\ids_chunk_Wi-Fi_1.pcap
+2026-05-05 03:56:10 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_868a0feae8\input
+2026-05-05 03:56:10 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_868a0feae8\output
+2026-05-05 03:56:11 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-05-05 03:56:11 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 26 flow
+2026-05-05 03:56:12 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 26 flow
+2026-05-05 03:56:12 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_868a0feae8\input\ids_chunk_Wi-Fi_2.pcap
+2026-05-05 03:56:15 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_51a50d699d\input
+2026-05-05 03:56:15 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_51a50d699d\output
+2026-05-05 03:56:17 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_51a50d699d\input\ids_chunk_Wi-Fi_3.pcap

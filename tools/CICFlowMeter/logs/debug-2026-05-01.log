@@ -1,0 +1,6 @@
+2026-05-01 03:27:01 INFO  cic.cs.unb.ca.ifm.Cmd    You select: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_085aa1d5dd\input
+2026-05-01 03:27:01 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_085aa1d5dd\output
+2026-05-01 03:27:02 INFO  cic.cs.unb.ca.jnetpcap.FlowGenerator    Forward flow closed due to FIN Flag
+2026-05-01 03:27:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2026-05-01 03:27:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagRST current has 14 flow
+2026-05-01 03:27:02 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on C:\Users\user\Downloads\ids_project_skeleton\ids_project\data\uploads\pcap_085aa1d5dd\input\ids_realtime_Wi-Fi.pcap

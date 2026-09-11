@@ -1,0 +1,261 @@
+{
+  "evaluation_timestamp": "20260512_062151",
+  "methodology": {
+    "ground_truth": "Synthetic feature vectors from domain-knowledge attack signatures",
+    "ema_warmup_obs": 15,
+    "samples_per_class": 25,
+    "normal_samples": 40,
+    "noise_fraction": 0.12,
+    "random_seed": 42,
+    "if_binary_threshold": 0.5,
+    "hybrid_threshold": 0.52,
+    "classify_min_ratio": 4.0
+  },
+  "behavioral_classifier": {
+    "model_present": true,
+    "total_samples": 430,
+    "per_intensity": {
+      "strong": {
+        "n": 125,
+        "correct": 108,
+        "accuracy": 0.864
+      },
+      "borderline": {
+        "n": 125,
+        "correct": 65,
+        "accuracy": 0.52
+      },
+      "subthresh": {
+        "n": 100,
+        "correct": 100,
+        "accuracy": 1.0
+      },
+      "normal": {
+        "n": 80,
+        "correct": 40,
+        "accuracy": 0.5
+      }
+    },
+    "per_class_metrics": {
+      "Connection Burst": {
+        "precision": 1.0,
+        "recall": 0.64,
+        "f1": 0.7804878048780487,
+        "support": 25
+      },
+      "ICMP Flood": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 25
+      },
+      "Port Scan": {
+        "precision": 1.0,
+        "recall": 0.88,
+        "f1": 0.9361702127659575,
+        "support": 25
+      },
+      "SYN Flood": {
+        "precision": 1.0,
+        "recall": 0.92,
+        "f1": 0.9583333333333334,
+        "support": 25
+      },
+      "UDP Flood": {
+        "precision": 1.0,
+        "recall": 0.88,
+        "f1": 0.9361702127659575,
+        "support": 25
+      }
+    },
+    "macro": {
+      "precision": 1.0,
+      "recall": 0.8640000000000001,
+      "f1": 0.9222323127486594
+    },
+    "binary": {
+      "tp": 198,
+      "fp": 40,
+      "tn": 140,
+      "fn": 52,
+      "precision": 0.8319327731092437,
+      "recall": 0.792,
+      "f1": 0.8114754098360656,
+      "fpr": 0.2222222222222222
+    },
+    "unknown": {
+      "total": 180,
+      "correct": 140,
+      "accuracy": 0.7777777777777778
+    }
+  },
+  "if_anomaly_detector": {
+    "available": true,
+    "n_normal": 40,
+    "n_attack": 125,
+    "score_stats": {
+      "normal": {
+        "min": 0.3485,
+        "max": 0.3704,
+        "mean": 0.3628
+      },
+      "attack": {
+        "min": 0.3418,
+        "max": 0.6013,
+        "mean": 0.4961
+      }
+    },
+    "binary": {
+      "tp": 75,
+      "fp": 0,
+      "tn": 40,
+      "fn": 50,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "fpr": 0.0
+    },
+    "roc_auc": 0.8032,
+    "hybrid_coverage": {
+      "SYN Flood": {
+        "pct": 100.0,
+        "n": 25
+      },
+      "Port Scan": {
+        "pct": 100.0,
+        "n": 25
+      },
+      "ICMP Flood": {
+        "pct": 0.0,
+        "n": 25
+      },
+      "UDP Flood": {
+        "pct": 0.0,
+        "n": 25
+      },
+      "Connection Burst": {
+        "pct": 100.0,
+        "n": 25
+      }
+    },
+    "behavioral_coverage": {
+      "SYN Flood": {
+        "pct": 84.0,
+        "n": 25
+      },
+      "Port Scan": {
+        "pct": 64.0,
+        "n": 25
+      },
+      "ICMP Flood": {
+        "pct": 0.0,
+        "n": 25
+      },
+      "UDP Flood": {
+        "pct": 0.0,
+        "n": 25
+      },
+      "Connection Burst": {
+        "pct": 100.0,
+        "n": 25
+      }
+    }
+  },
+  "rf_classifier": {
+    "rf_strong_accuracy": 0.96,
+    "rf_borderline_accuracy": 0.528,
+    "rf_ood_rejection_rate": 1.0,
+    "confidence_threshold": 0.7,
+    "strong_per_class": [
+      {
+        "class": "SYN Flood",
+        "accuracy": 0.96,
+        "mean_confidence": 0.85124,
+        "top_label": "Likely SYN Flood"
+      },
+      {
+        "class": "Port Scan",
+        "accuracy": 0.92,
+        "mean_confidence": 0.8274799999999999,
+        "top_label": "Likely Port Scan"
+      },
+      {
+        "class": "ICMP Flood",
+        "accuracy": 1.0,
+        "mean_confidence": 0.91624,
+        "top_label": "Likely ICMP Flood"
+      },
+      {
+        "class": "UDP Flood",
+        "accuracy": 1.0,
+        "mean_confidence": 0.8466,
+        "top_label": "Likely UDP Flood"
+      },
+      {
+        "class": "Connection Burst",
+        "accuracy": 0.92,
+        "mean_confidence": 0.84812,
+        "top_label": "Likely Connection Burst"
+      }
+    ],
+    "borderline_per_class": [
+      {
+        "class": "SYN Flood",
+        "accuracy": 0.0,
+        "mean_confidence": 0.7954399999999999,
+        "top_label": "Likely Port Scan"
+      },
+      {
+        "class": "Port Scan",
+        "accuracy": 0.96,
+        "mean_confidence": 0.7210000000000001,
+        "top_label": "Likely Port Scan"
+      },
+      {
+        "class": "ICMP Flood",
+        "accuracy": 0.6,
+        "mean_confidence": 0.4701600000000001,
+        "top_label": "Likely ICMP Flood"
+      },
+      {
+        "class": "UDP Flood",
+        "accuracy": 0.96,
+        "mean_confidence": 0.75244,
+        "top_label": "Likely UDP Flood"
+      },
+      {
+        "class": "Connection Burst",
+        "accuracy": 0.12,
+        "mean_confidence": 0.08535999999999999,
+        "top_label": ""
+      }
+    ],
+    "ood_scenarios": [
+      {
+        "scenario": "Sub-threshold SYN",
+        "rejection_rate": 1.0,
+        "mean_confidence": 0.0
+      },
+      {
+        "scenario": "Sub-threshold Scan",
+        "rejection_rate": 1.0,
+        "mean_confidence": 0.0
+      },
+      {
+        "scenario": "Ambiguous mix A",
+        "rejection_rate": 1.0,
+        "mean_confidence": 0.0
+      },
+      {
+        "scenario": "Normal traffic",
+        "rejection_rate": 1.0,
+        "mean_confidence": 0.9669599999999999
+      },
+      {
+        "scenario": "Elevated normal",
+        "rejection_rate": 1.0,
+        "mean_confidence": 0.0
+      }
+    ]
+  }
+}

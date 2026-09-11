@@ -1,0 +1,431 @@
+intensity,class,expected_label,predicted_label,confidence,if_score,correct,explanation
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.842,0.5542,True,RF classifier: SYN Flood (84% confidence) | next: Port Scan (14%) | IF score 55%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.889,0.5502,True,RF classifier: SYN Flood (89% confidence) | next: Port Scan (11%) | IF score 55%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.844,0.5556,True,RF classifier: SYN Flood (84% confidence) | next: Port Scan (15%) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.851,0.5482,True,RF classifier: SYN Flood (85% confidence) | next: Port Scan (15%) | IF score 55%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.81,0.5513,True,RF classifier: SYN Flood (81% confidence) | next: Port Scan (19%) | IF score 55%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.929,0.555,True,RF classifier: SYN Flood (93% confidence) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.987,0.5556,True,RF classifier: SYN Flood (99% confidence) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.96,0.5571,True,RF classifier: SYN Flood (96% confidence) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.885,0.555,True,RF classifier: SYN Flood (88% confidence) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.952,0.5577,True,RF classifier: SYN Flood (95% confidence) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.923,0.5571,True,RF classifier: SYN Flood (92% confidence) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.965,0.5556,True,RF classifier: SYN Flood (97% confidence) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.947,0.5571,True,RF classifier: SYN Flood (95% confidence) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Suspicious Behavioral Traffic,0.0,0.5517,False,"IF score 55% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.894,0.5563,True,RF classifier: SYN Flood (89% confidence) | next: Port Scan (10%) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.952,0.5556,True,RF classifier: SYN Flood (95% confidence) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.875,0.5556,True,RF classifier: SYN Flood (88% confidence) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.795,0.5542,True,RF classifier: SYN Flood (80% confidence) | next: Port Scan (19%) | IF score 55%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.852,0.5509,True,RF classifier: SYN Flood (85% confidence) | next: Port Scan (15%) | IF score 55%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.878,0.5509,True,RF classifier: SYN Flood (88% confidence) | next: Port Scan (12%) | IF score 55%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.913,0.5556,True,RF classifier: SYN Flood (91% confidence) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.967,0.555,True,RF classifier: SYN Flood (97% confidence) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.794,0.5563,True,RF classifier: SYN Flood (79% confidence) | next: Port Scan (20%) | IF score 56%
+strong,SYN Flood,Likely SYN Flood,Likely SYN Flood,0.79,0.5517,True,RF classifier: SYN Flood (79% confidence) | next: Port Scan (19%) | IF score 55%
+strong,SYN Flood,Likely SYN Flood,Suspicious Behavioral Traffic,0.0,0.5603,False,"IF score 56% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.966,0.5677,True,RF classifier: Port Scan (97% confidence) | IF score 57%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.989,0.5523,True,RF classifier: Port Scan (99% confidence) | IF score 55%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.854,0.5469,True,RF classifier: Port Scan (85% confidence) | next: SYN Flood (15%) | IF score 55%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.956,0.5556,True,RF classifier: Port Scan (96% confidence) | IF score 56%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.995,0.5544,True,RF classifier: Port Scan (100% confidence) | IF score 55%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.902,0.555,True,RF classifier: Port Scan (90% confidence) | IF score 56%
+strong,Port Scan,Likely Port Scan,Suspicious Behavioral Traffic,0.0,0.5509,False,"IF score 55% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.976,0.5607,True,RF classifier: Port Scan (98% confidence) | IF score 56%
+strong,Port Scan,Likely Port Scan,Suspicious Behavioral Traffic,0.0,0.5523,False,"IF score 55% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.997,0.5536,True,RF classifier: Port Scan (100% confidence) | IF score 55%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.933,0.5601,True,RF classifier: Port Scan (93% confidence) | IF score 56%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.979,0.5531,True,RF classifier: Port Scan (98% confidence) | IF score 55%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.993,0.5531,True,RF classifier: Port Scan (99% confidence) | IF score 55%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.749,0.5542,True,RF classifier: Port Scan (75% confidence) | next: SYN Flood (25%) | IF score 55%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.996,0.5449,True,RF classifier: Port Scan (100% confidence) | IF score 54%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.92,0.5529,True,RF classifier: Port Scan (92% confidence) | IF score 55%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.926,0.5507,True,RF classifier: Port Scan (93% confidence) | IF score 55%
+strong,Port Scan,Likely Port Scan,Suspicious Behavioral Traffic,0.0,0.5569,False,"IF score 56% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.962,0.5577,True,RF classifier: Port Scan (96% confidence) | IF score 56%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.889,0.5544,True,RF classifier: Port Scan (89% confidence) | IF score 55%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.977,0.5577,True,RF classifier: Port Scan (98% confidence) | IF score 56%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.723,0.5523,True,RF classifier: Port Scan (72% confidence) | next: SYN Flood (27%) | IF score 55%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.865,0.5603,True,RF classifier: Port Scan (86% confidence) | next: SYN Flood (12%) | IF score 56%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.967,0.549,True,RF classifier: Port Scan (97% confidence) | IF score 55%
+strong,Port Scan,Likely Port Scan,Likely Port Scan,0.893,0.5509,True,RF classifier: Port Scan (89% confidence) | IF score 55%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.88,0.3427,True,RF classifier: ICMP Flood (88% confidence) | IF score 34%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.873,0.3381,True,RF classifier: ICMP Flood (87% confidence) | IF score 34%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.957,0.3529,True,RF classifier: ICMP Flood (96% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.966,0.3513,True,RF classifier: ICMP Flood (97% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.973,0.3436,True,RF classifier: ICMP Flood (97% confidence) | IF score 34%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.945,0.3414,True,RF classifier: ICMP Flood (94% confidence) | IF score 34%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.866,0.3476,True,RF classifier: ICMP Flood (87% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.964,0.3476,True,RF classifier: ICMP Flood (96% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.947,0.3486,True,RF classifier: ICMP Flood (95% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.947,0.3459,True,RF classifier: ICMP Flood (95% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.93,0.3498,True,RF classifier: ICMP Flood (93% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.923,0.3471,True,RF classifier: ICMP Flood (92% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.959,0.3446,True,RF classifier: ICMP Flood (96% confidence) | IF score 34%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.929,0.3474,True,RF classifier: ICMP Flood (93% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.952,0.3514,True,RF classifier: ICMP Flood (95% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.925,0.3339,True,RF classifier: ICMP Flood (93% confidence) | IF score 33%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.925,0.3477,True,RF classifier: ICMP Flood (93% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.896,0.3476,True,RF classifier: ICMP Flood (90% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.871,0.3549,True,RF classifier: ICMP Flood (87% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.953,0.3556,True,RF classifier: ICMP Flood (95% confidence) | IF score 36%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.939,0.3427,True,RF classifier: ICMP Flood (94% confidence) | IF score 34%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.924,0.3497,True,RF classifier: ICMP Flood (92% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.963,0.34,True,RF classifier: ICMP Flood (96% confidence) | IF score 34%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.879,0.3456,True,RF classifier: ICMP Flood (88% confidence) | IF score 35%
+strong,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.895,0.3449,True,RF classifier: ICMP Flood (89% confidence) | IF score 34%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.742,0.4315,True,RF classifier: UDP Flood (74% confidence) | next: BENIGN (19%) | IF score 43%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.93,0.4416,True,RF classifier: UDP Flood (93% confidence) | IF score 44%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.853,0.4192,True,RF classifier: UDP Flood (85% confidence) | IF score 42%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.786,0.4191,True,RF classifier: UDP Flood (79% confidence) | next: BENIGN (15%) | IF score 42%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.908,0.4342,True,RF classifier: UDP Flood (91% confidence) | IF score 43%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.733,0.4242,True,RF classifier: UDP Flood (73% confidence) | next: BENIGN (20%) | IF score 42%
+strong,UDP Flood,Likely UDP Flood,Suspicious Behavioral Traffic,0.0,0.4327,False,"IF score 43% | elevated: udp_rate, unique_dst_ports, total_rate"
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.92,0.4329,True,RF classifier: UDP Flood (92% confidence) | IF score 43%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.815,0.4216,True,RF classifier: UDP Flood (82% confidence) | next: BENIGN (13%) | IF score 42%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.863,0.4366,True,RF classifier: UDP Flood (86% confidence) | IF score 44%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.801,0.4382,True,RF classifier: UDP Flood (80% confidence) | next: BENIGN (14%) | IF score 44%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.916,0.4453,True,RF classifier: UDP Flood (92% confidence) | IF score 45%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.766,0.4353,True,RF classifier: UDP Flood (77% confidence) | next: BENIGN (17%) | IF score 44%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.85,0.4364,True,RF classifier: UDP Flood (85% confidence) | next: BENIGN (11%) | IF score 44%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.703,0.4209,True,RF classifier: UDP Flood (70% confidence) | next: BENIGN (22%) | IF score 42%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.825,0.4186,True,RF classifier: UDP Flood (82% confidence) | next: BENIGN (15%) | IF score 42%
+strong,UDP Flood,Likely UDP Flood,Suspicious Behavioral Traffic,0.0,0.4281,False,"IF score 43% | elevated: udp_rate, unique_dst_ports, total_rate"
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.911,0.4237,True,RF classifier: UDP Flood (91% confidence) | IF score 42%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.838,0.423,True,RF classifier: UDP Flood (84% confidence) | next: BENIGN (12%) | IF score 42%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.898,0.434,True,RF classifier: UDP Flood (90% confidence) | IF score 43%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.731,0.4263,True,RF classifier: UDP Flood (73% confidence) | next: BENIGN (20%) | IF score 43%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.737,0.439,True,RF classifier: UDP Flood (74% confidence) | next: BENIGN (19%) | IF score 44%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.932,0.4371,True,RF classifier: UDP Flood (93% confidence) | IF score 44%
+strong,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.747,0.4313,True,RF classifier: UDP Flood (75% confidence) | next: BENIGN (20%) | IF score 43%
+strong,UDP Flood,Likely UDP Flood,Suspicious Behavioral Traffic,0.0,0.4155,False,"IF score 42% | elevated: udp_rate, unique_dst_ports, total_rate"
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.989,0.5959,True,RF classifier: Connection Burst (99% confidence) | IF score 60%
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.847,0.6005,True,RF classifier: Connection Burst (85% confidence) | next: SYN Flood (11%) | IF score 60%
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.987,0.5917,True,RF classifier: Connection Burst (99% confidence) | IF score 59%
+strong,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.593,False,"IF score 59% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5777,False,"IF score 58% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.988,0.5986,True,RF classifier: Connection Burst (99% confidence) | IF score 60%
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.96,0.5837,True,RF classifier: Connection Burst (96% confidence) | IF score 58%
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.948,0.5998,True,RF classifier: Connection Burst (95% confidence) | IF score 60%
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.957,0.5857,True,RF classifier: Connection Burst (96% confidence) | IF score 59%
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.864,0.5906,True,RF classifier: Connection Burst (86% confidence) | IF score 59%
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.957,0.5926,True,RF classifier: Connection Burst (96% confidence) | IF score 59%
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.96,0.595,True,RF classifier: Connection Burst (96% confidence) | IF score 60%
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.942,0.5892,True,RF classifier: Connection Burst (94% confidence) | IF score 59%
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.755,0.5926,True,RF classifier: Connection Burst (76% confidence) | next: SYN Flood (19%) | IF score 59%
+strong,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5889,False,"IF score 59% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5986,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.98,0.6013,True,RF classifier: Connection Burst (98% confidence) | IF score 60%
+strong,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5959,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.6007,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.966,0.5942,True,RF classifier: Connection Burst (97% confidence) | IF score 59%
+strong,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5986,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.968,0.5925,True,RF classifier: Connection Burst (97% confidence) | IF score 59%
+strong,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5966,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+strong,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.966,0.5953,True,RF classifier: Connection Burst (97% confidence) | IF score 60%
+strong,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5931,False,"IF score 59% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.852,0.5535,False,RF classifier: Port Scan (85% confidence) | next: SYN Flood (10%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.82,0.5507,False,RF classifier: Port Scan (82% confidence) | next: SYN Flood (11%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.751,0.5572,False,RF classifier: Port Scan (75% confidence) | next: SYN Flood (17%) | IF score 56%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.787,0.5493,False,RF classifier: Port Scan (79% confidence) | next: SYN Flood (11%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.827,0.5601,False,RF classifier: Port Scan (83% confidence) | next: SYN Flood (10%) | IF score 56%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.823,0.5554,False,RF classifier: Port Scan (82% confidence) | IF score 56%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.81,0.5543,False,RF classifier: Port Scan (81% confidence) | next: SYN Flood (11%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.83,0.5549,False,RF classifier: Port Scan (83% confidence) | next: SYN Flood (11%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.815,0.5554,False,RF classifier: Port Scan (82% confidence) | next: SYN Flood (13%) | IF score 56%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.784,0.5499,False,RF classifier: Port Scan (78% confidence) | next: SYN Flood (13%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.82,0.5551,False,RF classifier: Port Scan (82% confidence) | next: SYN Flood (11%) | IF score 56%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.799,0.5541,False,RF classifier: Port Scan (80% confidence) | next: SYN Flood (11%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.806,0.5606,False,RF classifier: Port Scan (81% confidence) | next: SYN Flood (11%) | IF score 56%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.834,0.5588,False,RF classifier: Port Scan (83% confidence) | IF score 56%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.793,0.556,False,RF classifier: Port Scan (79% confidence) | next: SYN Flood (13%) | IF score 56%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.801,0.5535,False,RF classifier: Port Scan (80% confidence) | next: SYN Flood (13%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.816,0.5525,False,RF classifier: Port Scan (82% confidence) | next: SYN Flood (12%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.827,0.5531,False,RF classifier: Port Scan (83% confidence) | next: SYN Flood (12%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.814,0.5535,False,RF classifier: Port Scan (81% confidence) | next: SYN Flood (12%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.831,0.55,False,RF classifier: Port Scan (83% confidence) | next: SYN Flood (10%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.833,0.5609,False,RF classifier: Port Scan (83% confidence) | IF score 56%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.826,0.5576,False,RF classifier: Port Scan (83% confidence) | next: SYN Flood (11%) | IF score 56%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.808,0.5512,False,RF classifier: Port Scan (81% confidence) | next: SYN Flood (13%) | IF score 55%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.838,0.5559,False,RF classifier: Port Scan (84% confidence) | next: SYN Flood (11%) | IF score 56%
+borderline,SYN Flood,Likely SYN Flood,Likely Port Scan,0.822,0.5451,False,RF classifier: Port Scan (82% confidence) | next: SYN Flood (10%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.764,0.5493,True,RF classifier: Port Scan (76% confidence) | next: SYN Flood (18%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.773,0.5537,True,RF classifier: Port Scan (77% confidence) | next: SYN Flood (17%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.754,0.5518,True,RF classifier: Port Scan (75% confidence) | next: SYN Flood (18%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.783,0.5512,True,RF classifier: Port Scan (78% confidence) | next: SYN Flood (17%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.772,0.5524,True,RF classifier: Port Scan (77% confidence) | next: SYN Flood (18%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.758,0.5493,True,RF classifier: Port Scan (76% confidence) | next: SYN Flood (17%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.752,0.5539,True,RF classifier: Port Scan (75% confidence) | next: SYN Flood (17%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.728,0.5506,True,RF classifier: Port Scan (73% confidence) | next: SYN Flood (20%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.806,0.5552,True,RF classifier: Port Scan (81% confidence) | next: SYN Flood (16%) | IF score 56%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.762,0.5512,True,RF classifier: Port Scan (76% confidence) | next: SYN Flood (18%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.787,0.5499,True,RF classifier: Port Scan (79% confidence) | next: SYN Flood (17%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.78,0.5552,True,RF classifier: Port Scan (78% confidence) | next: SYN Flood (17%) | IF score 56%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.734,0.5474,True,RF classifier: Port Scan (73% confidence) | next: SYN Flood (17%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.796,0.5559,True,RF classifier: Port Scan (80% confidence) | next: SYN Flood (16%) | IF score 56%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.728,0.5493,True,RF classifier: Port Scan (73% confidence) | next: SYN Flood (20%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.779,0.5537,True,RF classifier: Port Scan (78% confidence) | next: SYN Flood (16%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.831,0.5528,True,RF classifier: Port Scan (83% confidence) | next: SYN Flood (15%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.798,0.5531,True,RF classifier: Port Scan (80% confidence) | next: SYN Flood (16%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.763,0.5512,True,RF classifier: Port Scan (76% confidence) | next: SYN Flood (19%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.784,0.5507,True,RF classifier: Port Scan (78% confidence) | next: SYN Flood (17%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.774,0.556,True,RF classifier: Port Scan (77% confidence) | next: SYN Flood (17%) | IF score 56%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.77,0.5577,True,RF classifier: Port Scan (77% confidence) | next: SYN Flood (17%) | IF score 56%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.764,0.5499,True,RF classifier: Port Scan (76% confidence) | next: SYN Flood (18%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.736,0.5537,True,RF classifier: Port Scan (74% confidence) | next: SYN Flood (18%) | IF score 55%
+borderline,Port Scan,Likely Port Scan,Likely Port Scan,0.774,0.5444,True,RF classifier: Port Scan (77% confidence) | next: SYN Flood (15%) | IF score 54%
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.78,0.3472,True,RF classifier: ICMP Flood (78% confidence) | IF score 35%
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.787,0.3507,True,RF classifier: ICMP Flood (79% confidence) | IF score 35%
+borderline,ICMP Flood,Likely ICMP Flood,Suspicious Behavioral Traffic,0.0,0.3578,False,"IF score 36% | elevated: icmp_rate, udp_rate, total_rate"
+borderline,ICMP Flood,Likely ICMP Flood,Suspicious Behavioral Traffic,0.0,0.3464,False,"IF score 35% | elevated: icmp_rate, udp_rate, total_rate"
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.795,0.3471,True,RF classifier: ICMP Flood (79% confidence) | IF score 35%
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.794,0.3556,True,RF classifier: ICMP Flood (79% confidence) | IF score 36%
+borderline,ICMP Flood,Likely ICMP Flood,Suspicious Behavioral Traffic,0.0,0.3475,False,"IF score 35% | elevated: icmp_rate, udp_rate, total_rate"
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.786,0.3563,True,RF classifier: ICMP Flood (79% confidence) | IF score 36%
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.774,0.35,True,RF classifier: ICMP Flood (77% confidence) | IF score 35%
+borderline,ICMP Flood,Likely ICMP Flood,Suspicious Behavioral Traffic,0.0,0.347,False,"IF score 35% | elevated: icmp_rate, udp_rate, unique_dst_ports, total_rate"
+borderline,ICMP Flood,Likely ICMP Flood,Suspicious Behavioral Traffic,0.0,0.3572,False,"IF score 36% | elevated: icmp_rate, udp_rate, total_rate"
+borderline,ICMP Flood,Likely ICMP Flood,Suspicious Behavioral Traffic,0.0,0.3507,False,"IF score 35% | elevated: icmp_rate, udp_rate, total_rate"
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.786,0.3537,True,RF classifier: ICMP Flood (79% confidence) | IF score 35%
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.788,0.3489,True,RF classifier: ICMP Flood (79% confidence) | IF score 35%
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.797,0.3541,True,RF classifier: ICMP Flood (80% confidence) | IF score 35%
+borderline,ICMP Flood,Likely ICMP Flood,Suspicious Behavioral Traffic,0.0,0.354,False,"IF score 35% | elevated: icmp_rate, udp_rate, total_rate"
+borderline,ICMP Flood,Likely ICMP Flood,Suspicious Behavioral Traffic,0.0,0.3548,False,"IF score 35% | elevated: icmp_rate, udp_rate, total_rate"
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.782,0.3494,True,RF classifier: ICMP Flood (78% confidence) | IF score 35%
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.792,0.3485,True,RF classifier: ICMP Flood (79% confidence) | IF score 35%
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.781,0.3486,True,RF classifier: ICMP Flood (78% confidence) | IF score 35%
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.782,0.3544,True,RF classifier: ICMP Flood (78% confidence) | IF score 35%
+borderline,ICMP Flood,Likely ICMP Flood,Suspicious Behavioral Traffic,0.0,0.3518,False,"IF score 35% | elevated: icmp_rate, udp_rate, total_rate"
+borderline,ICMP Flood,Likely ICMP Flood,Suspicious Behavioral Traffic,0.0,0.354,False,"IF score 35% | elevated: icmp_rate, udp_rate, total_rate"
+borderline,ICMP Flood,Likely ICMP Flood,Suspicious Behavioral Traffic,0.0,0.347,False,"IF score 35% | elevated: icmp_rate, udp_rate, total_rate"
+borderline,ICMP Flood,Likely ICMP Flood,Likely ICMP Flood,0.847,0.354,True,RF classifier: ICMP Flood (85% confidence) | IF score 35%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.807,0.4261,True,RF classifier: UDP Flood (81% confidence) | next: BENIGN (10%) | IF score 43%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.82,0.419,True,RF classifier: UDP Flood (82% confidence) | IF score 42%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.807,0.4281,True,RF classifier: UDP Flood (81% confidence) | IF score 43%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.786,0.415,True,RF classifier: UDP Flood (79% confidence) | IF score 42%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.792,0.4288,True,RF classifier: UDP Flood (79% confidence) | IF score 43%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.789,0.4256,True,RF classifier: UDP Flood (79% confidence) | next: BENIGN (10%) | IF score 43%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.773,0.4186,True,RF classifier: UDP Flood (77% confidence) | next: BENIGN (11%) | IF score 42%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.773,0.4212,True,RF classifier: UDP Flood (77% confidence) | IF score 42%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.781,0.4163,True,RF classifier: UDP Flood (78% confidence) | next: BENIGN (11%) | IF score 42%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.76,0.4173,True,RF classifier: UDP Flood (76% confidence) | next: BENIGN (11%) | IF score 42%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.782,0.4301,True,RF classifier: UDP Flood (78% confidence) | next: BENIGN (11%) | IF score 43%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.79,0.4205,True,RF classifier: UDP Flood (79% confidence) | next: BENIGN (11%) | IF score 42%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.781,0.4304,True,RF classifier: UDP Flood (78% confidence) | IF score 43%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.758,0.4305,True,RF classifier: UDP Flood (76% confidence) | next: BENIGN (13%) | IF score 43%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.779,0.4292,True,RF classifier: UDP Flood (78% confidence) | next: BENIGN (11%) | IF score 43%
+borderline,UDP Flood,Likely UDP Flood,Suspicious Behavioral Traffic,0.0,0.4171,False,"IF score 42% | elevated: udp_rate, unique_dst_ports, total_rate"
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.797,0.4181,True,RF classifier: UDP Flood (80% confidence) | next: BENIGN (11%) | IF score 42%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.791,0.4251,True,RF classifier: UDP Flood (79% confidence) | next: BENIGN (10%) | IF score 43%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.789,0.4143,True,RF classifier: UDP Flood (79% confidence) | next: BENIGN (11%) | IF score 41%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.805,0.4265,True,RF classifier: UDP Flood (81% confidence) | IF score 43%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.766,0.4217,True,RF classifier: UDP Flood (77% confidence) | next: BENIGN (12%) | IF score 42%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.834,0.4195,True,RF classifier: UDP Flood (83% confidence) | IF score 42%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.769,0.4142,True,RF classifier: UDP Flood (77% confidence) | next: BENIGN (12%) | IF score 41%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.792,0.4206,True,RF classifier: UDP Flood (79% confidence) | next: BENIGN (11%) | IF score 42%
+borderline,UDP Flood,Likely UDP Flood,Likely UDP Flood,0.807,0.4286,True,RF classifier: UDP Flood (81% confidence) | IF score 43%
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5987,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5972,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5871,False,"IF score 59% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5973,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5884,False,"IF score 59% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.596,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5965,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5939,False,"IF score 59% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5945,False,"IF score 59% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5985,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5945,False,"IF score 59% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5992,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5912,False,"IF score 59% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5973,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5939,False,"IF score 59% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.734,0.5864,True,RF classifier: Connection Burst (73% confidence) | next: Port Scan (16%) | IF score 59%
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.598,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5859,False,"IF score 59% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5932,False,"IF score 59% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5827,False,"IF score 58% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5972,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5965,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.5987,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+borderline,Connection Burst,Likely Connection Burst,Likely Connection Burst,0.713,0.5947,True,RF classifier: Connection Burst (71% confidence) | next: Port Scan (16%) | IF score 59%
+borderline,Connection Burst,Likely Connection Burst,Suspicious Behavioral Traffic,0.0,0.598,False,"IF score 60% | elevated: syn_rate, udp_rate, ack_rate, rst_rate, unique_dst_ports, total_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3894,True,"IF score 39% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4049,True,"IF score 40% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4133,True,"IF score 41% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.415,True,"IF score 42% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4037,True,"IF score 40% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3887,True,"IF score 39% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4126,True,"IF score 41% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4057,True,"IF score 41% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4003,True,"IF score 40% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4032,True,"IF score 40% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4087,True,"IF score 41% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.406,True,"IF score 41% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.416,True,"IF score 42% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3941,True,"IF score 39% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4089,True,"IF score 41% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4027,True,"IF score 40% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3924,True,"IF score 39% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3932,True,"IF score 39% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.404,True,"IF score 40% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4074,True,"IF score 41% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4067,True,"IF score 41% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4118,True,"IF score 41% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4051,True,"IF score 41% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.394,True,"IF score 39% | elevated: syn_rate, rst_rate"
+subthresh,SYN Flood (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4003,True,"IF score 40% | elevated: syn_rate, rst_rate"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3932,True,"IF score 39% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3816,True,"IF score 38% | elevated: rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3921,True,"IF score 39% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3803,True,"IF score 38% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.385,True,"IF score 38% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3984,True,"IF score 40% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3987,True,"IF score 40% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3868,True,"IF score 39% | elevated: rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3947,True,"IF score 39% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3897,True,"IF score 39% | elevated: rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3808,True,"IF score 38% | elevated: rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3883,True,"IF score 39% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3726,True,"IF score 37% | elevated: rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3988,True,"IF score 40% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3791,True,"IF score 38% | elevated: rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3929,True,"IF score 39% | elevated: rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3919,True,"IF score 39% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3771,True,"IF score 38% | elevated: rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.388,True,"IF score 39% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3826,True,"IF score 38% | elevated: rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3906,True,"IF score 39% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3962,True,"IF score 40% | elevated: rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3998,True,"IF score 40% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3811,True,"IF score 38% | elevated: rst_rate, unique_dst_ports"
+subthresh,Port Scan (sub-threshold),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3862,True,"IF score 39% | elevated: syn_rate, rst_rate, unique_dst_ports"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.421,True,"IF score 42% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4232,True,"IF score 42% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4154,True,"IF score 42% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4292,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4099,True,"IF score 41% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4276,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4319,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4332,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4183,True,"IF score 42% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4088,True,"IF score 41% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4252,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4222,True,"IF score 42% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4279,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4062,True,"IF score 41% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4187,True,"IF score 42% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.425,True,"IF score 42% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4215,True,"IF score 42% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4127,True,"IF score 41% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4131,True,"IF score 41% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.423,True,"IF score 42% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4322,True,"IF score 43% | elevated: syn_rate, icmp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4072,True,"IF score 41% | elevated: syn_rate, icmp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4286,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4224,True,"IF score 42% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly A,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4275,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4373,True,"IF score 44% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4369,True,"IF score 44% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4339,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4404,True,"IF score 44% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4386,True,"IF score 44% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4418,True,"IF score 44% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4319,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4498,True,"IF score 45% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.441,True,"IF score 44% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4272,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4383,True,"IF score 44% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4253,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4463,True,"IF score 45% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4417,True,"IF score 44% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4303,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4488,True,"IF score 45% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4285,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4345,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4246,True,"IF score 42% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4383,True,"IF score 44% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4252,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4298,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4296,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4352,True,"IF score 44% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+subthresh,Ambiguous Anomaly B,Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4322,True,"IF score 43% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate, total_rate"
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3576,False,RF: looks like normal traffic (100% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3648,False,RF: looks like normal traffic (98% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.364,False,RF: looks like normal traffic (93% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3604,False,RF: looks like normal traffic (100% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3498,False,RF: looks like normal traffic (100% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3561,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3641,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3604,False,RF: looks like normal traffic (100% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3621,False,RF: looks like normal traffic (96% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3701,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3581,False,RF: looks like normal traffic (98% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3606,False,RF: looks like normal traffic (84% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3583,False,RF: looks like normal traffic (86% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3652,False,RF: looks like normal traffic (98% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3574,False,RF: looks like normal traffic (98% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3626,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3696,False,RF: looks like normal traffic (95% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3677,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3638,False,RF: looks like normal traffic (98% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3632,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3629,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3629,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3645,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3692,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3525,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3648,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3513,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3694,False,RF: looks like normal traffic (98% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3655,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.369,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3632,False,RF: looks like normal traffic (97% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3637,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3648,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3536,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3678,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3569,False,RF: looks like normal traffic (100% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3659,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3708,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.3685,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal Traffic,Suspicious Behavioral Traffic,,0.0,0.368,False,RF: looks like normal traffic (99% confidence) | border-noise suppression
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3907,True,"IF score 39% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3921,True,IF score 39% | elevated: icmp_rate
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4007,True,"IF score 40% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4118,True,"IF score 41% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4035,True,"IF score 40% | elevated: syn_rate, icmp_rate, unique_dst_ports"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4007,True,"IF score 40% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4032,True,"IF score 40% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.41,True,"IF score 41% | elevated: syn_rate, icmp_rate, udp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.416,True,"IF score 42% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4114,True,"IF score 41% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4141,True,"IF score 41% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.397,True,"IF score 40% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4078,True,"IF score 41% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4046,True,"IF score 40% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4005,True,"IF score 40% | elevated: syn_rate, icmp_rate, udp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3916,True,"IF score 39% | elevated: syn_rate, icmp_rate, udp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4124,True,"IF score 41% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4133,True,"IF score 41% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4,True,"IF score 40% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3957,True,"IF score 40% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4093,True,"IF score 41% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3992,True,"IF score 40% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4147,True,"IF score 41% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4182,True,"IF score 42% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3872,True,"IF score 39% | elevated: icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4097,True,"IF score 41% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4314,True,"IF score 43% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4062,True,"IF score 41% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.409,True,"IF score 41% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4185,True,"IF score 42% | elevated: syn_rate, icmp_rate, rst_rate, unique_dst_ports"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.396,True,"IF score 40% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4108,True,"IF score 41% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4052,True,"IF score 41% | elevated: syn_rate, icmp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4023,True,"IF score 40% | elevated: syn_rate, icmp_rate, rst_rate, unique_dst_ports"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4133,True,"IF score 41% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3974,True,"IF score 40% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4126,True,"IF score 41% | elevated: syn_rate, icmp_rate, udp_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.3962,True,"IF score 40% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.4019,True,"IF score 40% | elevated: syn_rate, icmp_rate, rst_rate"
+normal,Normal (elevated),Suspicious Behavioral Traffic,Suspicious Behavioral Traffic,0.0,0.397,True,"IF score 40% | elevated: syn_rate, icmp_rate"
